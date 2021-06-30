@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.sayani.moodanalyzer.MoodAnalyzerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-30T09:51:56" hostname="DESKTOP-N66BMGP" time="0.004">
+<testsuite name="com.sayani.moodanalyzer.MoodAnalyzerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-30T10:44:31" hostname="DESKTOP-N66BMGP" time="0.005">
   <properties/>
-  <testcase name="testMoodAnalysis_whenMoodIsNull" classname="com.sayani.moodanalyzer.MoodAnalyzerTest" time="0.004"/>
+  <testcase name="testMoodAnalysis_whenMoodIsNull_ShouldThrowException" classname="com.sayani.moodanalyzer.MoodAnalyzerTest" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
