@@ -7,28 +7,28 @@ import org.junit.Test;
 public class MoodAnalyzerTest {
 
     /**
-     * Purpose : analyse mood
+     * Purpose : Analyse mood by passing the message in the constructor
      * Input message: This is a sad message
      * @return : SAD
      */
 
     @Test
     public void testMoodAnalysis_whenMoodIsSad() {
-        MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
-        String mood = moodAnalyzer.analyseMood("This is a sad message");
+        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("This is a sad message");
+        String mood = moodAnalyzer.analyseMood();
         Assert.assertThat(mood, CoreMatchers.is("SAD"));
     }
 
     /**
-     * Purpose : analyse mood
+     * Purpose : Analyse mood by passing the message in the constructor
      * Input message: This is a happy message
      * @return : HAPPY
      */
 
     @Test
     public void testMoodAnalysis_whenMoodIsHappy() {
-        MoodAnalyzer moodAnalyzer = new MoodAnalyzer();
-        String mood = moodAnalyzer.analyseMood("This is a happy message");
+        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("This is a happy message");
+        String mood = moodAnalyzer.analyseMood();
         Assert.assertThat(mood, CoreMatchers.is("HAPPY"));
     }
 }
